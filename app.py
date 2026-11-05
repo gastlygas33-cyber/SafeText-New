@@ -73,7 +73,8 @@ elif opcion == "🛡️ Simulador":
            
     st.markdown("---")
     st.markdown("### 📈 Simulador de Impacto y Viralización")
-    st.write("Este gráfico demuestra como se propaga exponencialmente un archivo si tan solo una persona decide romper la confianza y reenviarlo (por lo menos a 3 personas)")
+    st.subheader("Estos gráficos demuestran como se propaga exponencialmente un archivo si tan solo una persona decide reenviarlo")
+    st.write("(Si cada persona a la que le llega se lo envía a otras 3 personas)")
 
     datos_viral = pd.DataFrame({"Paso de difusión": ["Inicio", "1er Reenvío", "2do Reenvío", "3er Reenvío", "4to Reenvío (Viral)"], "Personas alcanzadas": [1, 3, 9, 27, 81]})
 
@@ -109,10 +110,4 @@ elif opcion == "🆘 Ayuda":
         st.write("Plataforma global y gratuita gestionada por la Revenge Porn Helpline. Permite a mayores de 18 años generar una huella digital ('hash') de sus imágenes o videos íntimos desde su propio dispositivo, sin tener que subirlos a internet. Este código se comparte de forma segura con redes sociales (como Facebook, Instagram, TikTok y OnlyFans) para detectar y bloquear el material antes de que se difunda.")
 
         st.markdown("#### 2. Take It Down")
-        st.write("Servicio gratuito operado por el National Center for Missing & Exploited Children (NCMEC) enfocado en menores de 18 años (o adultos preocupados por imágenes tomadas cuando eran menores). Funciona de manera similar a StopNCII, asignando un código numérico a las imágenes o videos para evitar su propagación en plataformas digitales.")
-       
-        st.markdown("#### 3. Cyber Rights Organization")
-        st.write("Ofrece una línea de ayuda (Helpline) confidencial y disponible las 24 horas para víctimas de 'sextorsión', abuso digital y deepfakes. Brindan asistencia legal y apoyo técnico para la remoción de contenido.")
-      
-        st.markdown("#### 4. Apoyo y Denuncia Local")
-        st.markdown("- Fundación YOD: Brinda orientación en ciberseguridad y resguardo de evidencia.\n- Organismo de Investigación Judicial (OIJ): Entidad oficial ante la cual se deben realizar las denuncias formales en casos graves")
+ 
