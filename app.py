@@ -84,7 +84,7 @@ elif opcion == "🛡️ Simulador":
     st.bar_chart(datos_viral)
 
     total_personas = datos_viral["Personas alcanzadas"].sum()
-    st.metric(label="⚠️ Total estimado de personas con el archivo en su poder", value=f"{total_personas} personas")
+    st.metric(label="⚠️ Total estimado de personas con el archivo", value=f"{total_personas} personas")
 
 elif opcion == "🆘 Ayuda":
     st.subheader("Centro de Ayuda")
