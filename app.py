@@ -29,7 +29,7 @@ if opcion == "🏠 Página Principal":
         st.error("Falso. La confianza excesiva es el mayor factor de riesgo. Cualquier persona, sin importar su edad, género o experiencia, puede ser víctima de filtraciones o extorsión digital si no toma precauciones.")
 
     with st.expander("Mito 4: 'Si no muestro la cara, no sabrán que soy yo'"):
-        st.error("Falso. Los tatuajes, cicatrices, lunares, accesorios, ropa, el fondo de la habitación (muebles, vistas, etc.) e incluso los meta datos del archivo (como l ubicación y la hora guardadas en la foto) son elementos de identificación únicos que permiten reconocer a una persona fácilmente.")
+        st.error("Falso. Los tatuajes, cicatrices, lunares, accesorios, ropa, el fondo de la habitación (muebles, vistas, etc.) e incluso los meta datos del archivo (como la ubicación y la hora guardadas en la foto) son elementos de identificación únicos que permiten reconocer a una persona fácilmente.")
        
     with st.expander("Mito 5: 'Si solo se lo envío a mi pareja o a una persona de confianza, es seguro.'"):
         st.error("Falso. Las relaciones cambian y la confianza actual no garantiza la lealtad del futuro. Además, los dispositivos ajenos pueden ser robados, hackeados o revisados por terceros sin consentimiento.")
