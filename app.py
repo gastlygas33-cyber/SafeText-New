@@ -110,4 +110,11 @@ elif opcion == "🆘 Ayuda":
         st.write("Plataforma global y gratuita gestionada por la Revenge Porn Helpline. Permite a mayores de 18 años generar una huella digital ('hash') de sus imágenes o videos íntimos desde su propio dispositivo, sin tener que subirlos a internet. Este código se comparte de forma segura con redes sociales (como Facebook, Instagram, TikTok y OnlyFans) para detectar y bloquear el material antes de que se difunda.")
 
         st.markdown("#### 2. Take It Down")
+        st.write("Servicio gratuito operado por el National Center for Missing & Exploited Children (NCMEC) enfocado en menores de 18 años (o adultos preocupados por imágenes tomadas cuando eran menores). Funciona de manera similar a StopNCII, asignando un código numérico a las imágenes o videos para evitar su propagación en plataformas digitales.")
+       
+        st.markdown("#### 3. Cyber Rights Organization")
+        st.write("Ofrece una línea de ayuda (Helpline) confidencial y disponible las 24 horas para víctimas de 'sextorsión', abuso digital y deepfakes. Brindan asistencia legal y apoyo técnico para la remoción de contenido.")
+      
+        st.markdown("#### 4. Apoyo y Denuncia Local")
+        st.markdown("- Fundación YOD: Brinda orientación en ciberseguridad y resguardo de evidencia.\n- Organismo de Investigación Judicial (OIJ): Entidad oficial ante la cual se deben realizar las denuncias formales en casos graves")
  
