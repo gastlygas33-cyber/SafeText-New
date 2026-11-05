@@ -14,7 +14,7 @@ if opcion == "🏠 Página Principal":
     st.subheader(f"Bienvenido/a {usuario}")
     st.write("SafeText es un simulador educativo sobre el 'sexting', en el que se dan consejos sobre que hacer en estos casos y simula el compartir contenido multimedia de manera 'segura', y, al mismo tiempo, demostrar que no hay opción digital totalmente segura para esta actividad")
    
-    st.markdown("---")
+    st.divider()
    
     st.markdown("### 🧠 Mitos y Realidades sobre el Sexting")
     st.write("Haz clic en cada tarjeta para descubrir la verdad detrás de las falsas creencias digitales")
@@ -71,7 +71,7 @@ elif opcion == "🛡️ Simulador":
         else:
             st.error("Por favor, sube un archivo antes de simular el envío")
            
-    st.markdown("---")
+    st.divider()
     st.markdown("### 📈 Simulador de Impacto y Viralización")
     st.subheader("Estos gráficos demuestran como se propaga exponencialmente un archivo si tan solo una persona decide reenviarlo")
     st.write("(Si cada persona a la que le llega se lo envía a otras 3 personas)")
